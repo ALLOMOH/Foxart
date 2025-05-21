@@ -6,6 +6,8 @@ import { CallToAction } from './components/CallToAction';
 import { BulletPoints } from './components/BulletPoints';
 import {Princing} from './components/Princing';
 import { Footer } from './components/Footer';
+import { Analytics } from "@vercel/analytics/next"
+
 function App() {
   return (
     <>
@@ -18,6 +20,7 @@ function App() {
       <Princing />
       <CallToAction minify/>
       <Footer/>
+      <Analytics />
     </>
   );
 }
