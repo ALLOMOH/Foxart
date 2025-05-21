@@ -4,7 +4,7 @@ import Container from "./Container";
 import {Grid} from './theme/Hero';
 const Hero = () => {
   return (
-    <div className="relative">
+    <div className="relative z-0">
       <Container className="relative z-10 pt-10 lg:py-16 space-y-16">
         <div class="text-center max-w-2xl mx-auto px-16 lg:px-0 space-y-7">
             <h1 className="hero">

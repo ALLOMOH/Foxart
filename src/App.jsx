@@ -6,7 +6,7 @@ import { CallToAction } from './components/CallToAction';
 import { BulletPoints } from './components/BulletPoints';
 import {Princing} from './components/Princing';
 import { Footer } from './components/Footer';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
